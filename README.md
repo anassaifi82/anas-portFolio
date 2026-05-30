@@ -11,6 +11,7 @@ A modern, minimalist portfolio built with **React** and **Vite**, showcasing acc
 | `/accessibility` | Accessibility Statement | Conformance and accessibility commitments |
 | `/sitemap` | Sitemap | Overview of all pages and sections |
 
+
 Each route sets a unique document title (for example, `Contact Us — Anas Saifi`).
 
 ## Features
