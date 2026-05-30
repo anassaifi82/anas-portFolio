@@ -65,7 +65,7 @@ function Hero() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/anas-saifi-940394277"
+                href="https://www.linkedin.com/in/anas-s-940394277"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit LinkedIn profile (opens in new tab)"

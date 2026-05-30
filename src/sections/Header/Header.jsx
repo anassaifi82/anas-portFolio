@@ -14,7 +14,7 @@ const navLinks = [
   { to: "/#experience", label: "Experience" },
   { to: "/contact", label: "Contact" },
   {
-    href: "https://www.linkedin.com/in/anas-saifi-940394277",
+    href: "https://www.linkedin.com/in/anas-s-940394277",
     label: "LinkedIn",
     external: true,
   },

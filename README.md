@@ -185,7 +185,7 @@ Accessibility Developer & Tester — Frontend Developer
 Delhi, India
 
 - GitHub: [anassaifi82](https://github.com/anassaifi82)
-- LinkedIn: [anas-saifi-940394277](https://www.linkedin.com/in/anas-saifi-940394277)
+- LinkedIn: [anas-s-940394277](https://www.linkedin.com/in/anas-s-940394277)
 
 ## License
 
