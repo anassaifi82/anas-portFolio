@@ -1,0 +1,121 @@
+.pageMain {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.contactPageMain {
+  padding-top: 1.5rem;
+}
+
+.homePageMain {
+  padding-top: 0.5rem;
+}
+
+@media (width >= 800px) {
+  .contactPageMain {
+    padding-top: 2rem;
+  }
+}
+
+.pageContent {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.75rem 0;
+}
+
+.pageIntro {
+  max-width: 42rem;
+  margin: -1rem 0 2rem;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--muted-text-color);
+}
+
+.contentBlock {
+  margin-bottom: 2rem;
+}
+
+.contentBlock h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.contentBlock p {
+  margin: 0 0 0.75rem;
+  line-height: 1.65;
+  color: var(--text-color);
+}
+
+.contentList {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contentList li {
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.contentList a {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.contentList a:hover {
+  color: var(--link-hover-color);
+}
+
+.sitemapNav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sitemapGroup h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.sitemapList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sitemapList a {
+  display: inline-block;
+  padding: 0.375rem 0;
+  color: var(--link-color);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.sitemapList a:hover {
+  color: var(--link-hover-color);
+}
+
+@media (width >= 800px) {
+  .pageContent {
+    padding: 3rem 2rem 0;
+  }
+
+  .pageMain {
+    gap: 5rem;
+  }
+}

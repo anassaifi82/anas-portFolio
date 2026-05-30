@@ -1,7 +1,50 @@
-.container {
+.footer {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 2rem auto 0;
+  padding: 1.5rem 1.75rem 2rem;
+  border-top: 1px solid var(--card-border);
   text-align: center;
-  p {
-    font-size: 16px;
-    color: var(--footer-text-color);
+}
+
+.footerNav {
+  margin-bottom: 1rem;
+}
+
+.footerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerList a {
+  display: inline-block;
+  padding: 0.375rem 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  border-radius: 0.25rem;
+}
+
+.footerList a:hover {
+  color: var(--link-hover-color);
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--footer-text-color);
+  line-height: 1.5;
+}
+
+@media (width >= 800px) {
+  .footer {
+    padding: 1.5rem 2rem 2.5rem;
   }
 }
