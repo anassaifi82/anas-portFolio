@@ -41,7 +41,8 @@ function Hero() {
             Anas Saifi
           </h1>
           <h2 className={styles.title}>
-            Accessibility Developer &amp; Tester — Frontend Developer
+            Frontend Developer — React &amp; WordPress · Accessibility Development
+            &amp; Testing
           </h2>
 
           <address className={styles.contactLine}>
@@ -76,10 +77,11 @@ function Hero() {
           </ul>
 
           <p className={styles.description}>
-            Accessibility Developer and Tester with 2+ years of hands-on
-            experience in web accessibility, performing audits and remediations
-            to meet WCAG 2.1/2.2 AA standards. Skilled in both manual and
-            automated testing using axe, Lighthouse, NVDA, JAWS, and VoiceOver.
+            Frontend Developer with 2+ years of experience building accessible
+            web interfaces with React and WordPress. I specialize in accessibility
+            development and testing, including audits and remediations to meet
+            WCAG 2.1/2.2 AA standards. Skilled in manual and automated testing
+            using axe, Lighthouse, NVDA, JAWS, and VoiceOver.
           </p>
 
           <div className={styles.ctaGroup}>

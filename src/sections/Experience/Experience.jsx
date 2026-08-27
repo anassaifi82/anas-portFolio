@@ -2,7 +2,7 @@ import styles from "./ExperienceStyles.module.css";
 
 const experiences = [
   {
-    title: "Accessibility Developer & Tester — Frontend Developer",
+    title: "Frontend Developer — Accessibility Development & Testing",
     company: "D2i Technology",
     companyUrl: "https://d2itechnology.com/",
     meta: "Noida, India (On-site) · February 2025 — Present",

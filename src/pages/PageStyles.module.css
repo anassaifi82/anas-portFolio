@@ -7,11 +7,22 @@
 }
 
 .contactPageMain {
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
+  overflow-x: clip;
 }
 
 .homePageMain {
   padding-top: 0.5rem;
+}
+
+.simulatorPageMain {
+  padding-top: 0.5rem;
+}
+
+@media (width >= 800px) {
+  .simulatorPageMain {
+    padding-top: 1rem;
+  }
 }
 
 @media (width >= 800px) {

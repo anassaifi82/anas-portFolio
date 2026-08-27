@@ -2,6 +2,8 @@ const PAGE_TITLES = {
   "/": "Anas Saifi — Portfolio",
   "/contact": "Contact Us — Anas Saifi",
   "/accessibility": "Accessibility Statement — Anas Saifi",
+  "/simulator": "Accessibility Level Simulator — Anas Saifi",
+  "/simulator/color-vision": "Color & Contrast Simulator — Anas Saifi",
   "/sitemap": "Sitemap — Anas Saifi",
 };
 

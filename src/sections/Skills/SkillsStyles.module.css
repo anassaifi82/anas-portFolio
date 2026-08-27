@@ -88,3 +88,13 @@
     font-size: 1.0625rem;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}

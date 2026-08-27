@@ -2,6 +2,8 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./layout/Layout";
+import AccessibilityLevelSimulatorPage from "./pages/AccessibilityLevelSimulatorPage";
+import ColorVisionSimulatorPage from "./pages/ColorVisionSimulatorPage";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
@@ -27,6 +29,11 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="accessibility" element={<AccessibilityPage />} />
+            <Route path="simulator" element={<AccessibilityLevelSimulatorPage />} />
+            <Route
+              path="simulator/color-vision"
+              element={<ColorVisionSimulatorPage />}
+            />
             <Route path="sitemap" element={<SitemapPage />} />
           </Route>
         </Routes>

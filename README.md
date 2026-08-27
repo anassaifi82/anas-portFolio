@@ -181,7 +181,7 @@ If you encounter a barrier on this website, please reach out:
 ## Contact
 
 **Anas Saifi**  
-Accessibility Developer & Tester — Frontend Developer  
+Frontend Developer — React & WordPress · Accessibility Development & Testing  
 Delhi, India
 
 - GitHub: [anassaifi82](https://github.com/anassaifi82)

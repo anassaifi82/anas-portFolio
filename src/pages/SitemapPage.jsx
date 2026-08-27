@@ -7,6 +7,8 @@ const mainPages = [
   { to: "/", label: "Home" },
   { to: "/contact", label: "Contact Us" },
   { to: "/accessibility", label: "Accessibility Statement" },
+  { to: "/simulator", label: "Accessibility Level Simulator" },
+  { to: "/simulator/color-vision", label: "Color & Contrast Simulator" },
   { to: "/sitemap", label: "Sitemap" },
 ];
 

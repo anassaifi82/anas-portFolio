@@ -35,7 +35,7 @@ const skillCategories = [
     skills: [
       "React JS / Vite",
       "JavaScript (ES6+)",
-      "Responsive Design / Tailwind CSS",
+      "Responsive Design / CSS Modules",
     ],
   },
   {
